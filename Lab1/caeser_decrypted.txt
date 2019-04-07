@@ -1,0 +1,3 @@
+caesar cipher: encode and decode online
+
+method in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. the method is named after julius caesar, who used it in his private correspondence
