@@ -1,0 +1,1 @@
+The attacker can extract the session cookie from the GET method parameter and inject it to Facebook to immediately login to the victim's account.

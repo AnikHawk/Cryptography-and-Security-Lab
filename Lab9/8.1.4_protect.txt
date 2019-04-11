@@ -1,0 +1,1 @@
+The user should secure his Facebook account by enabling secure browsing option in his Facebook settings and also activating 2-factor authentication to prevent cookie hijacking.

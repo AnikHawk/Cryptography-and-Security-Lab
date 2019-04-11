@@ -1,0 +1,1 @@
+The browser is logged in to Facebook by sending a session cookie via an HTTP GET method, as this is transmitted publicly, thus the attacker can perform cookie hijacking pretty easily.
